@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Chakra Petch', sans-serif;
+}
+body {
+    background-image: url("img/2641063.gif");
+}
+
+.header{
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Rock Salt', cursive;
+}
+.main {
+    width: 90%;
+    height: 75vh;
+    display: flex;
+    margin: 0 auto;
+}
+.main-left {
+    background-image: url('img/genie.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 25%;
+}
+.main-container {
+    margin: 5rem auto;
+    width: 75%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.main-right {
+    background-image: url('img/genie.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    transform: rotateY(180deg);
+    width: 25%;
+}
+
+.footer {
+    text-align: right;
+    width: 90%;    
+    margin: 0 auto;
+}
+
+#activity {
+    margin: 2rem auto;
+    display: block;
+}
+#generate {
+    width: 25%;
+    margin: 2rem auto;
+    display: block;
+    height: 2.5rem;
+    font-size: .8rem;
+    border-radius: 25px;
+}
